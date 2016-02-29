@@ -1,6 +1,6 @@
 var app = angular.module('App', ['ngMaterial']);
-
 app.controller('Ctrl', function($scope) {
+/*
 	function el(id){return document.getElementById(id);} // Get elem by ID
 
   var canvas  = el("canvas");
@@ -38,8 +38,10 @@ app.controller('Ctrl', function($scope) {
   el("fileUpload").addEventListener("change", readImage, false);
 
 	// --------------------------------------------------------------
+  */
 	$scope.siteName = 'DPs for Cause';
 
+/*
 	$scope.currentTrend = {
 		title : '#TricolourForUnity',
 		filename : 'dpforcause-tricolorforunity.png',
@@ -72,4 +74,5 @@ app.controller('Ctrl', function($scope) {
  
  el("download").addEventListener('click', function() {   downloadCanvas(this, 'canvas', $scope.currentTrend.filename); }, false);
 
+*/
 });
